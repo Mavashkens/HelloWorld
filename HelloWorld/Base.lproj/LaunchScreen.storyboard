@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,19 +13,11 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3" colorLabel="IBBuiltInLabel-Red">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i9D-jY-53b">
-                                <rect key="frame" x="178" y="365" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yRa-74-7L7">
-                                <rect key="frame" x="196.66666666666666" y="460" width="37" height="37"/>
-                                <color key="color" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="143" translatesAutoresizingMaskIntoConstraints="NO" id="2Mh-zP-ZEE">
-                                <rect key="frame" x="122" y="841" width="186" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="143" translatesAutoresizingMaskIntoConstraints="NO" id="2Mh-zP-ZEE">
+                                <rect key="frame" x="141" y="433" width="132" height="44"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="39"/>
                                 <color key="textColor" systemColor="systemCyanColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,13 +25,10 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.88066896336553435" green="0.9683243800204977" blue="0.970703125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.87843137979999997" green="0.96862745289999996" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="yRa-74-7L7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5eG-o9-ykv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Mh-zP-ZEE" secondAttribute="bottom" constant="13" id="845-DB-1Xn"/>
-                            <constraint firstItem="yRa-74-7L7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="U1o-pB-58c"/>
-                            <constraint firstItem="2Mh-zP-ZEE" firstAttribute="centerX" secondItem="yRa-74-7L7" secondAttribute="centerX" id="ngy-DF-8dP"/>
-                            <constraint firstItem="2Mh-zP-ZEE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="ovH-XC-hmR"/>
+                            <constraint firstItem="2Mh-zP-ZEE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2us-ri-B43"/>
+                            <constraint firstItem="2Mh-zP-ZEE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="6d1-ol-TmB"/>
                         </constraints>
                     </view>
                 </viewController>
